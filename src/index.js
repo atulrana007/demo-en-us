@@ -19,7 +19,7 @@ const config = getConfig();
 
 const providerConfig = {
   domain: "mcafee-mpc.us.auth0.com",
-  clientId: "5rAu80xApaEFyGxTAsWBEl5FiNVYg1IL",
+  clientId: "m9Z6cOg7yBDgbtQ4ljH3Hln9as3wWoAB",
   ...(config.audience ? { audience: config.audience } : null),
   redirectUri: window.location.origin,
   onRedirectCallback,

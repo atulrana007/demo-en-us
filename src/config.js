@@ -13,7 +13,7 @@ export function getConfig() {
       : null;
 
   return {
-    domain: "atul-mcafee.us.auth0.com",
+    domain: "mcafee-mpc.us.auth0.com",
     clientId: "m9Z6cOg7yBDgbtQ4ljH3Hln9as3wWoAB",
     ...(audience ? { audience } : null),
   };
