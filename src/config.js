@@ -13,7 +13,7 @@ export function getConfig() {
       : null;
 
   return {
-    domain: "mcafee-mpc.us.auth0.com",
+    domain: "https://d1aza67fhfglew.cloudfront.net",
     clientId: "5rAu80xApaEFyGxTAsWBEl5FiNVYg1IL",
     ...(audience ? { audience } : null),
   };
